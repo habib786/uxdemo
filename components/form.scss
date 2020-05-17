@@ -1,0 +1,40 @@
+.form-parent {
+    margin: 10px 0 0 0;
+    .parent-col {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 10px 0;
+        p {
+            font-size: 12px;
+            color: #999;
+            margin: 0;
+            padding: 0;
+            font-weight: 500 
+        }
+        input {
+            border: none;
+            background-color: #f9f9f9;
+            padding: 5px;
+            outline: none;
+            border-radius: 3px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        span {
+            color: red;
+            font-size: 10px;
+        }
+        .gender-radio {
+            margin: 0 7px 0 0
+        }
+    }
+    .btn-parent {
+        text-align: center;
+        .submit-btn {
+            text-align: center;
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            &:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+              }
+        }
+    }
+}

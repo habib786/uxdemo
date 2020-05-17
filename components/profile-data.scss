@@ -1,0 +1,24 @@
+.profile-data-parent {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    .element-row {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 10px 0;
+        .element-heading {
+            font-size: 14px;
+            font-weight: 500;
+            color: #999999;
+            margin: 0;
+            padding: 0
+        }
+        .element-data {
+            font-size: 16px;
+            font-weight: 300;
+            color: #666666;
+            margin: -5px 0 0 10px;
+            padding: 0;
+        }
+    }
+}
